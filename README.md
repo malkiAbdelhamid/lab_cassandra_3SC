@@ -9,8 +9,10 @@ python -m pip install cassandra-driver
 
 python -m pip install jupyter
 
-# launch jupyter notebook
+# launch jupyter notebook 
   jupyter notebook
+
+  open the notebook "demo_cassandra_2022_esi-sba.ipynb"
 
 
 #  start  the cassandra cluster
