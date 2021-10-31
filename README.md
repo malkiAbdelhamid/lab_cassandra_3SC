@@ -3,6 +3,7 @@ python -m pip install cassandra-driver
 
 # install jupyter
 python -m pip install --upgrade pip
+
 python -m pip install jupyter
 
 # launch jupyter notebook
