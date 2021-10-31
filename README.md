@@ -1,8 +1,11 @@
+
+# upgrade pip
+python -m pip install --upgrade pip
+
 # install cassandta-driver
 python -m pip install cassandra-driver
 
 # install jupyter
-python -m pip install --upgrade pip
 
 python -m pip install jupyter
 
@@ -17,8 +20,7 @@ python -m pip install jupyter
   docker ps
 
 # Monitor cluster status
-
   docker exec cass nodetool status
 
-#Check CQL is working
+# Check CQL is working
  docker exec -it cass   cqlsh  -e "describe keyspaces"
